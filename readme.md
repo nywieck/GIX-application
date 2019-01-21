@@ -34,11 +34,13 @@ Using your favorite IDE (e.g., [Eclipse](https://www.eclipse.org/) or [BlueJ](ht
 
 The last project features my ongoing volunteer work with the [Smart Step project](https://rombolabs.github.io/#project-smartStep) at the UW BioRobitics Lab. I work under one of the doctoral students, helping her with what I can while gaining valuable lab experience.
 
-<img src="https://rombolabs.github.io/img/portfolio/ss1.png" width="700">
+<img src="https://rombolabs.github.io/img/portfolio/ss1.png" width="600">
 
 Part of my work is to parse the data by identifying starting and ending times of steps taken during the experiment. Although I can do this by manually combing through the data and selecting times, I wanted to practice coding and am creating an automated system that could be used in the future by other students working on similar projects.
 
 First, I programmed the algorithm to smooth noisy raw data based on an initial filter (smooth_data.m). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
+
+*_Disclosure_*: The main script **SmartStep_DataSplice.m** contains code not written by  me. The first 77 lines of code are taken from existing work that parses XSENS data and aggregates force measures from different sensors. The rest of the code (lines 80-219) are written by me. 
 
 ### To run the code
 
