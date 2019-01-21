@@ -40,7 +40,7 @@ Part of my work is to parse the data by identifying starting and ending times of
 
 First, I programmed the algorithm to smooth noisy raw data based on an initial filter (smooth_data.m). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
 
-*_Disclosure_*: The main script **SmartStep_DataSplice.m** contains code not written by  me. The first 77 lines of code are taken from existing work that parses XSENS data and aggregates force measures from different sensors. The rest of the code (lines 80-219) are written by me. 
+*_Disclosure_*: The main script **SmartStep_DataSplice.m** contains code (lines 1-77) from existing work. This portion parses XSENS data and aggregates force measures from different sensors. The rest of the code (lines 80-219, written by me) takes the total force data and splices them into individual steps.  
 
 ### To run the code
 
