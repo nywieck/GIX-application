@@ -32,7 +32,7 @@ Using your favorite IDE (e.g., [Eclipse](https://www.eclipse.org/) or [BlueJ](ht
 
 ## UW BioRobotics Lab (2019, current)
 
-The last project features my ongoing volunteer work in [Smart Step project](https://rombolabs.github.io/#project-smartStep) at the UW BioRobitics Lab. I work under one of the doctoral students, helping her with what I can while gaining valuable lab experience.
+The last project features my ongoing volunteer work with the [Smart Step project](https://rombolabs.github.io/#project-smartStep) at the UW BioRobitics Lab. I work under one of the doctoral students, helping her with what I can while gaining valuable lab experience.
 
 <img src="https://rombolabs.github.io/img/portfolio/ss1.png" width="700">
 
