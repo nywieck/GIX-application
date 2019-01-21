@@ -38,7 +38,7 @@ The last project features my ongoing volunteer work with the [Smart Step project
 
 Part of my work is to parse the data by identifying starting and ending times of steps taken during the experiment. Although I can do this by manually combing through the data and selecting times, I wanted to practice coding and am creating an automated system that could be used in the future by other students working on similar projects.
 
-First I smoothed the noisy raw data based on an initial filter (smooth_data.m). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
+First, I programmed the algorithm to smooth noisy raw data based on an initial filter (smooth_data.m). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
 
 ### To run the code
 
