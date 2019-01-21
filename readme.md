@@ -36,9 +36,9 @@ The last project features my ongoing volunteer work with the [Smart Step project
 
 <img src="https://rombolabs.github.io/img/portfolio/ss1.png" width="600">
 
-Part of my work is to parse the data by identifying starting and ending times of steps taken during the experiment. Although I can do this by manually combing through the data and selecting times, I wanted to practice coding and am creating an automated system that could be used in the future by other students working on similar projects.
+Part of my work is to parse the data by identifying starting and ending times of steps taken during the experiment. Although I could do this by manually combing through the data and selecting times, I wanted to practice coding and to create an automated system that could be used in the future by other students working on similar projects.
 
-First, I programmed the algorithm to smooth noisy raw data based on an initial filter (smooth_data.m). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
+First, I programmed the algorithm to smooth noisy raw data based on an initial filter (**smooth_data.m**). Then the filter location is iteratively refined for each set of data. Based on the final filter location, the algorithm determines the starting and ending time position for each foot, then plots them for verification. 
 
 *_Disclosure_*: The main script **SmartStep_DataSplice.m** contains code (lines 1-77) from existing work. This portion parses XSENS data and aggregates force measures from different sensors. The rest of the code (lines 80-219, written by me) takes the total force data and splices them into individual steps.  
 
