@@ -45,6 +45,7 @@ First, I programmed the algorithm to smooth noisy raw data based on an initial f
 ### To run the code
 
 Enter **\UW BioRobotics Lab** directory. Open **SmartStep_DataSplice.m** using Matlab and press ```F5``` or ```Run```. Below figure will be produced. 
+
 <img src="https://github.com/nywieck/GIX-application/blob/master/UW%20BioRobotics%20Lab/xsensExample.jpg" width="700">
 
 
